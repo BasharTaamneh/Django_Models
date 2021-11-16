@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div>
+    <h2>{{ snack_object.name }}</h2>
+    <hr>
+    <h3>purchaser:</h3> <p>{{ snack_object.purchaser }}</p>
+    <br>
+    <h3>description:</h3> <p>{{ snack_object.description }}</p>
+</div>
+
+{% endblock %}
